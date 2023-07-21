@@ -1,12 +1,12 @@
 # weather-app
 This is a simple Weather App that allows users to check the weather information for their current location or search for weather information of a specific city. The app retrieves weather data from the OpenWeatherMap API and displays it in a user-friendly interface.
 
-Features
+# Features
 Automatically fetches weather information based on the user's current location (if granted access).
 Allows users to search for weather information by city name.
 Displays weather details like temperature, weather description, wind speed, humidity, and cloudiness.
 Shows a weather icon representing the current weather conditions.
-Technologies Used
+# Technologies Used
 HTML
 CSS
 JavaScript
