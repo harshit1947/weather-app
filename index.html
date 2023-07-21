@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wether App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2 wether-app>Weather App</h2>
+        <!-- tab section -->
+        <div class="switch-tab">
+            <div class="tab user-tab">Your Weather</div>
+            <div class="tab search-tab">Search Weather</div>
+        </div>
+         <!-- form container -->
+         <div class="form-container">
+            <form class="search-form">
+                <input id="search-id" type="text" placeholder="Search city here...">
+                <button id="search-btn" type="submit">
+                    <img id="search-img" src="./assets/search.png">
+                </button>
+            </form>
+        </div>
+        <!-- weather show container -->
+        <div class="sub-container weather-container">
+            <!-- city name -->
+            <div class="city-info">
+                <div class="city-name"></div>
+                <!-- country flag -->
+                <img class="country-icon">
+            </div>
+            <!-- mausam kaise hain -->
+            <div class="mausam"></div>
+            <!-- mausam image -->
+            <img class="mausam-img">
+            <!-- temperatue -->
+            <div class="temp"></div>
+            <!-- three properties container -->
+            <div class="three-prop">
+                <!-- windspeed -->
+                <div class="box">
+                    <img>
+                    <p>Wind speed</p>
+                    <div class="wind-speed-value">
+
+                    </div>
+                </div>
+                <div class="box">
+                    <img>
+                    <p>Humidity</p>
+                    <div class="humidity-value">
+
+                    </div>
+                </div>
+                <div class="box">
+                    <img>
+                    <p>Cloudy</p>
+                    <div class="cloudy-value">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- grant location access container -->
+        <div class="sub-container grant-location-container">
+            <img id="loc" src="./assets/grantlocation.png">
+            <h3>Grant Location Access</h3>
+            <p>Allow Access to get wether information</p>
+            <button id="grant-access-btn">Grant</button>
+        </div>
+
+       
+
+        <!-- loading container -->
+        <div class=" sub-container loading-container">
+            <img id="loader-img" src="./assets/loader.gif">
+            <p>Loading...</p>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
